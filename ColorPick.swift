@@ -8,7 +8,7 @@ import SwiftUI
 
 struct ColorPickerView: View {
     
-    let colors = [Color.red, Color.orange, Color.green, Color.blue, Color.black]
+    let colors = [Color.red, Color.orange, Color.green, Color.blue, Color.white, Color.purple, Color.pink, Color.black]
     
     @Binding var selectedColor: Color
     var body: some View {
